@@ -1,5 +1,5 @@
 p {
-    color: rgb(67, 69, 158)
+    color: rgb(255, 255, 255)
 }
 html {
     font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high */
@@ -11,6 +11,7 @@ html {
     text-align: center;
     margin: 0;
     padding: 20px 0;
+    color: #ffffff;
     text-shadow: 3px 3px 1px rgb(54, 11, 11); 
   }
   p,
@@ -21,7 +22,7 @@ li {
   text-align: center;
 }
 body {
-    background-color: lightgrey;
+    background-color: rgb(151, 119, 51);
   }
   .flex { 
     display: flex;
@@ -32,4 +33,43 @@ body {
         display: block;
         margin: 0 auto;
        
+      }
+      body {
+        text-align: center;
+        padding: 70px 50px;
+
+      
+      }
+      /*#timer_parents{
+        text-align: center;
+        padding: 70px 50px;
+        background: #0D1A29;
+        font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;
+      }
+      */
+      #timer {
+        font-size: 3em;
+        font-weight: 100;
+        color: #ffffff;
+        text-shadow: 0 0 20px #000000;
+      }
+      #timer div {
+        display: inline-block;
+        min-width: 90px;
+      }
+      #timer div span {
+        color: #000000;
+        display: block;
+        font-size: .35em;
+        font-weight: 400;
+      }
+      
+      #since { 
+        color: #B1CDF1;
+        display: block;
+        font-size: .35em;
+        font-weight: 400;
+        padding-bottom: 10px;
+        text-shadow: 0 0 10px #48C8FF;
+      
       }
